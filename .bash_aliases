@@ -9,12 +9,12 @@ alias gco="git checkout"
 alias cob="git checkout -b"
 alias gd="git diff"
 alias gdc="git diff --cached"
-alias gl="git log --oneline --decorate --graph --all"
+# alias gl="git log --oneline --decorate --graph --all"
 alias gll="git log ---stat"
 alias gr="git remote -v"
 alias gp="git push"
 alias gpf="git push --force-with-lease"
-alias gpl="git pull"
+alias gl="git pull"
 alias gpo="git push origin"
 alias gplo="git pull origin"
 alias gri="git rebase -i"
@@ -33,6 +33,8 @@ alias last="git log -1 HEAD"
 alias lastChanges="git diff HEAD~1 HEAD"
 alias aliasConfig="git config --global --edit"
 alias ga="git add"
+alias g="git"
+
 
 
 ##
